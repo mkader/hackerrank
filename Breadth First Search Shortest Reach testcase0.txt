@@ -1,0 +1,35 @@
+Sample Input
+
+2
+4 2
+1 2
+1 3
+1
+3 1
+2 3
+2
+Sample Output
+
+6 6 -1
+-1 6
+Explanation
+
+We perform the following two queries:
+
+The given graph can be represented as: 
+start
+1------->2     4
+|
+|
+v
+3
+
+where our start node, 2, is node . The shortest distances from s to the other nodes are one edge to node 2, one edge to node 3, and an infinite distance to node  4(which it's not connected to). We then print 1 node 's distance to nodes 2, 3, and  4(respectively) as a single line of space-separated integers: 6, 6, -1.
+
+The given graph can be represented as: 
+graph2
+start
+2------>3    1
+where our start node,s , is node 2. There is only one edge here, so node 2 is unreachable from node 2 and node 3 has one edge connecting it to node 2. We then print node 2's distance to nodes 1 and  3(respectively) as a single line of space-separated integers: -1 6.
+
+Note: Recall that the actual length of each edge is 6, and we print -1 as the distance to any node that's unreachable from s.
