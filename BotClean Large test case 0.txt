@@ -1,0 +1,12 @@
+Sample Input
+
+0 0
+5 5
+b---d
+-d--d
+--dd-
+--d--
+----d
+Sample Output
+
+RIGHT
