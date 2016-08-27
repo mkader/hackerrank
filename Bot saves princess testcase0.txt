@@ -1,0 +1,13 @@
+The valid moves are LEFT or RIGHT or UP or DOWN.
+
+Sample input
+
+3
+---
+-m-
+p--
+
+Sample output
+
+DOWN
+LEFT
